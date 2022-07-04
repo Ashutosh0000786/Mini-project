@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCamp</title>
+</head>
+
+
+
+<style>
+
+    #box{
+      padding-left:20%;
+      padding-bottom:15px;
+      background-color:rgba(26, 66, 89, 0.729);
+    }
+
+    h1{
+     font-size: 40px;
+     
+    }
+
+   #center{
+    background-color: rgba(240, 235, 235, 0.927);
+    text-align: center;
+    border-style: double;
+    border-color:black;
+    width: 600pt;
+    height:600px;
+    border-radius: 10px;
+    
+    }
+   
+   #submit{
+    
+    background-color: rgba(11, 69, 69, 0.701);
+        color: white;
+        border-style: none;
+        border-radius: 3px;
+        height: 40px;
+        width: 140px;
+        display: block;
+        margin: 0 auto;
+   }
+
+
+</style>
+
+<body id="box">
+
+     
+   <div id="center">
+   <h1>Survey Form</h1> 
+   <p>Let us know how we can improve freeCodeCamp </p> <br>
+
+   Name:<input type="text" name="nm" placeholder="Enter your name"> <br> <br>
+
+      
+   Email:<input type="text" name="em" placeholder="Enter your Email"> <br> <br>
+   
+   Age:<input type="text" name="ag" placeholder="Age"> <br> <br>
+   Which option best descides your current role? <select>
+    <option value="">Student</option>
+    <option value="">Teacher</option>
+    <option value="">Parents</option>
+   </select> <br> <br>
+
+   How likely is that you would recommend  <br>
+   freeCodeCamp to a friend?&nbsp;<br>
+   <input type="radio" value="defa">Definitely
+   <input type="radio" value="may"> Maybe 
+    
+    <input type="radio" value="may"> Not sure <br><br>
+
+     What do you like most in FCC: &nbsp; <select>
+    <option value="select"> Select an option </option>
+   </select> <br> <br>
+
+Things that should ne improved in the future 
+ <br>
+(Check all that apply):<br> 
+<input type="checkbox" value="defa">Front-end Projects  
+<input type="checkbox" value="may"> Back-end Projects <br>
+ <input type="checkbox" value="may"> Data Visualization <br><br>
+
+<input type="submit" id="submit">
+
+</div>
+</body>
+</html>
